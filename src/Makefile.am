@@ -13,7 +13,6 @@ qt_draw_compare_SOURCES = \
 	main.cc
 
 .hh.moc.cc:
-	$(MKDIR_P) `dirname $@`
 	$(QT_MOC) -o $@ $(qt_draw_compare_CPPFLAGS) $(CPPFLAGS) $<
 SUFFIXES = .hh .moc.cc
 CLEANFILES = $(qt_draw_compare_moc_sources)
