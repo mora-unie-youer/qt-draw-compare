@@ -14,6 +14,7 @@ AC_PROG_CXX
 AC_PROG_CC
 
 # Checks for libraries.
+AX_HAVE_QT
 
 # Checks for header files.
 
