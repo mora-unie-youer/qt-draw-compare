@@ -3,11 +3,17 @@
 
 #include <QMainWindow>
 
+// Main window widget
 class MainWindow : public QMainWindow
 {
 	Q_OBJECT
 public:
-	MainWindow();
+	/**
+	 * @brief Create main window widget
+	 *
+	 * @param parent parent widget
+	 */
+	explicit MainWindow(QWidget *parent = 0);
 	~MainWindow();
 };
 

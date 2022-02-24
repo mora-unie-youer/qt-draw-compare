@@ -1,6 +1,6 @@
 #include "main_window.hh"
 
-MainWindow::MainWindow()
+MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent)
 {
 }
 
