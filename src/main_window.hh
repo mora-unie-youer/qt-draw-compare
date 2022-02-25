@@ -3,10 +3,14 @@
 
 #include <QMainWindow>
 
+#include "draw_widget.hh"
+
 // Main window widget
 class MainWindow : public QMainWindow
 {
 	Q_OBJECT
+private:
+	DrawWidget *m_drawWidget;
 public:
 	/**
 	 * @brief Create main window widget
